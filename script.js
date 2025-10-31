@@ -7,5 +7,5 @@ function sayHello(){
 	})
 }
 sayHello().then((data)=>{
-	document.getElementById("output");
+	document.getElementById("output").textContent = data;
 })
